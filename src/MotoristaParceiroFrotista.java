@@ -1,13 +1,3 @@
-/**
- * Motorista parceiro frotista da plataforma.
- *
- * O motorista aluga o carro da plataforma.
- *
- * Regra de pagamento: a plataforma cobra 20% do valor bruto.
- * Regra extra: desconto fixo de R$ 800,00 (aluguel do veiculo).
- * Se o valor liquido ficar negativo, retorna 0.0 (situacao simplificada:
- * o motorista nao deve nada a plataforma, apenas recebe zero).
- */
 public class MotoristaParceiroFrotista extends Motorista {
 
     private static final double TAXA_PLATAFORMA = 0.20;

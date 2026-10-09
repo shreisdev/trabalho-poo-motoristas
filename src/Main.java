@@ -1,14 +1,5 @@
 import java.util.Locale;
 
-/**
- * Classe executavel que simula o sistema de pagamento de motoristas.
- *
- * Instancia um motorista de cada categoria, registra corridas ficticias
- * e imprime o holerite/extrato de cada um.
- *
- * Demonstra polimorfismo: o metodo imprimirExtrato(Motorista) recebe
- * qualquer Motorista e chama calcularPagamentoLiquido() de forma dinamica.
- */
 public class Main {
 
     public static void main(String[] args) {

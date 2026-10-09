@@ -1,10 +1,3 @@
-/**
- * Motorista iniciante da plataforma.
- *
- * Regra de pagamento: a plataforma cobra 25% do valor bruto (recebe 75%).
- * Regra extra: com menos de 5 corridas no mes, desconta R$ 50,00
- * como "taxa de inatividade".
- */
 public class MotoristaIniciante extends Motorista {
 
     private static final double TAXA_PLATAFORMA = 0.25;
